@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://escenes/Buttons/Buttons.tscn" type="PackedScene" id=1]
+
+[node name="Escenario Uno" instance=ExtResource( 1 )]
+text = "Escenario Uno"

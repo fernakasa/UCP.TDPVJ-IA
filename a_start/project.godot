@@ -16,8 +16,12 @@ _global_script_class_icons={
 [application]
 
 config/name="test9999"
-run/main_scene="res://escenes/game.tscn"
+run/main_scene="res://escenes/Menu.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/main_scene="res://escenes/game.tscn"
 
 [rendering]
 

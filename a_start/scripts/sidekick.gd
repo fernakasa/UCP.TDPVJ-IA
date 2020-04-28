@@ -35,3 +35,4 @@ func _process(delta):
 			# If we have no points left, remove path
 			if path.size() == 0:
 				path = null
+				get_tree().change_scene("res://escenes/Menu.tscn")
