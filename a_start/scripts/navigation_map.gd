@@ -71,10 +71,10 @@ func next_step(close_set, open_set):
 			if i[1] < mayor:
 				mayor = i[1]
 				indice = i
-		else:
-			if i[3] < indice[3]:
-				mayor = i[1]
-				indice = i
+			else:
+				if i[3] < indice[3] and i[1] == mayor:
+					mayor = i[1]
+					indice = i
 	open_set.erase(indice)
 	close_set.append(indice)
 
